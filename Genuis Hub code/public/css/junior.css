@@ -1,0 +1,101 @@
+.banner-abt{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-image: url(../img/jschoolhubimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.banner-abt h1{
+    font-size: 70px;
+}
+
+.banner-abt p{
+    font-size: 22px;
+    max-width: 1000px;
+}
+
+.junior-event{
+    margin-top: 60px;
+}
+
+.junior-event h2{
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.junior-event h2::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background-color: #b0cb1f;
+}
+
+.junior-event p{
+    text-align: center;
+    color: #3650e4ef;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.junior-event span{
+    font-size: 16;
+    text-align: center;
+}
+
+.junior-event ol{
+    margin-top: 20px;
+}
+
+.junior-event li{
+    margin-bottom: 10px;
+}
+
+.contact-junior{
+    width: fit-content;
+    padding: 20px 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-junior div{
+    color: #b0cb1f;
+}
+
+.contact-junior p{
+    font-size: 15px;
+    color: #333;
+}
+
+.contact-junior a{
+    background-color: #b1cb1f2d;
+    font-weight: 500;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}

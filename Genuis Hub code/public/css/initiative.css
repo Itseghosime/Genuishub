@@ -1,0 +1,46 @@
+.banner-abt{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-image: url(../img/genuishubinitiative.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.banner-abt h1{
+    font-size: 70px;
+}
+
+.banner-abt p{
+    font-size: 22px;
+    max-width: 1000px;
+}
+
+.initiative-event{
+    margin-top: 60px;
+}
+
+.initiative-event h3{
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.initiative-event h3::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100px;
+    left: 0;
+    bottom: 0;
+    background-color: #b0cb1f;
+}

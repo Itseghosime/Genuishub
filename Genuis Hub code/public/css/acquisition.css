@@ -1,0 +1,128 @@
+.banner-abt{
+    height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+    background-image: url(../img/gsmpimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.banner-abt h1{
+    font-size: 60px;
+    max-width: 80%;
+}
+
+.banner-abt p{
+    font-size: 22px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.junior-event{
+    margin-top: 60px;
+}
+
+.junior-event h2{
+    font-size: 30px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.junior-event h2::after{
+    position: absolute;
+    content: '';
+    height: 3px;
+    width: 100px;
+    left: calc(50% - 50px);
+    bottom: 0;
+    background-color: #b0cb1f;
+}
+
+.junior-event p{
+    text-align: center;
+    color: #3650e4ef;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.process{
+    margin-top: 50px;
+}
+
+.contact-acq{
+    max-width: 500px;
+    padding: 20px 50px;
+    padding-bottom: 30px;
+    text-align: left;
+    margin-top: 20px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.contact-acq div{
+    color: #b0cb1f;
+}
+
+.contact-acq h4{
+    font-size: 13px;
+    color: #a82681;
+    font-weight: normal;
+}
+
+.contact-acq p{
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    text-align: left;
+}
+
+.contact-acq span{
+    background-color: #a826812c;
+    font-weight: 500;
+    color: #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+.secc-card{
+    margin-top: 20px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.skill-acquisition p{
+    font-size: 18px;
+    color: rgb(88, 88, 88);
+}
+
+.application-form{
+    margin: auto;
+    width: fit-content;
+    padding-bottom: 50px;
+}
+
+.application-form a{
+    color: #000;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-right: 10px;
+    border: 2px solid #a82681;
+    border-radius: 5px;
+}
+
+.application-form a:hover{
+    background-color: #a82681;
+    color: #fff;
+}

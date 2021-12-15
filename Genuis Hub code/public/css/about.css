@@ -1,0 +1,71 @@
+
+
+.banner-abt{
+    height: 70vh;
+    width: 100%;
+    background-color: #3cb0e3;
+}
+
+.abt-cont{
+    background-color: rgba(60, 177, 227, 0.199);
+    padding: 10px 5%;
+    padding-bottom: 40px;
+    text-align: center;
+    text-justify: distribute;
+    color: rgb(0, 0, 0);
+}
+
+.abt-cont a{
+    text-align: center;
+    display: inline-block;
+    margin: auto;
+    border: 2px solid #3cb0e3;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.abt-cont a:hover{
+    color: #a82681;
+    border-color: #a82681;
+}
+
+.card.abt .card-title{
+    font-size: 20px;
+}
+
+.card.abt .card-body{
+    font-size: 15px;
+}
+
+.last-heading{
+    padding: 20px 5%;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+.last-heading h5{
+    max-width: 700px;
+}
+
+.last-heading h5 span{
+    color: #da2319;
+}
+
+.list{
+    padding-left: 5%;
+    margin-bottom: 100px;
+}
+
+
+.list ol{
+
+}
+
+.list li{
+    margin-top: 10px;
+    color: #000;
+    font-weight: 500;
+}
